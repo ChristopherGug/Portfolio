@@ -40,7 +40,12 @@ header nav a {
     text-decoration: none;
 }
 
-header nav a:hover {
+a {
+    color: #56a8ff;
+    text-decoration: none;
+}
+
+a:hover {
     text-decoration: underline;
 }
 
@@ -87,13 +92,6 @@ section h2 {
 .project h3 {
     margin-bottom: 0.5rem;
 }
-a {
-    color: #56a8ff;
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
-}
 
 /* About and Contact */
 section#about, section#contact {
@@ -105,6 +103,14 @@ section#about, section#contact {
 i {
     margin: 10px;
     color: #333333;
+}
+
+section#contact i:hover {
+    transform: scale(120%);
+}
+
+section#contact a:hover {
+    text-decoration: none;
 }
 
 /* Footer */
