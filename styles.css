@@ -105,8 +105,12 @@ i {
     color: #333333;
 }
 
+i:not(:hover) {
+    transition: all 0.2s ease;
+}
+
 section#contact i:hover {
-    transform: scale(120%);
+    transform: scale(130%);
 }
 
 section#contact a:hover {
