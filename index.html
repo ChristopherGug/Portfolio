@@ -20,18 +20,18 @@
     </header>
 
     <!-- Skills Section -->
-    <section id="skills">
+    <section id="skill-section">
         <h2>Skills</h2>
         <div class="skills">
-            <span>C#</span>
+            <span><a href="#project1">C#</a></span>
             <span>C++</span>
-            <span>Java</span>
+            <span><a href="#project3">Java</a></span>
             <span>Python</span>
-            <span>JavaScript</span>
-            <span>MongoDB</span>
+            <span><a href="#project2">JavaScript</a></span>
+            <span><a href="#project1">MongoDB</a></span>
             <span>SQL</span>
-            <span>Express</span>
-            <span>API Development</span>
+            <span><a href="#project1">Express</a></span>
+            <span><a href="#project1">API Development</a></span>
             <span>AWS</span>
         </div>
     </section>
@@ -40,35 +40,41 @@
     <section id="projects">
         <h2>Projects</h2>
         <div class="project-list">
-            <div class="project">
-                <h3>Weight Tracking App</h3>
-                <p>
-                    Web App built to help track changes in your own weight day to day.<br>
-                    This is a Node.js project built with express as the backend framework.<br>
-                    The front end is built with HTML5 and EJS in order to dynamically build the page.<br>
-                    The application uses MongoDB to store the data. 
-                </p>
-                <a href="https://github.com/ChristopherGug/Weight-Tracking-Site" target="_blank">GitHub</a> | <a href="https://weight.chrisgug.com" target="_blank">Demo</a>
-            </div>
-            <div class="project">
-                <h3>Pokemon API App</h3>
-                <p>
-                    Web App built to gather information about a selected pokemon.<br>
-                    This project uses vanilla HTML and JavaScript.
-                </p>
-                <a href="https://github.com/ChristopherGug/PokeAPI-website" target="_blank">GitHub</a> | <a href="https://poke.chrisgug.com/" target="_blank">Demo</a>
-            </div>
-            <div class="project">
-                <h3>User database web app</h3>
-                <p>
-                    Web App built to connect database with a Java servlet where users can create and sign into user accounts.<br>
-                    This project uses HTML and JSP for the front end.<br>
-                    The backend is built with Java and ran on a TomCat server.<br>
-                    The database is a PostgreSQL database.<br>
-                    This project is not currently hosted online but I would love to talk it through!
-                </p>
-                <a href="https://github.com/ChristopherGug/SignUp-SignIn" target="_blank">GitHub</a>
-            </div>
+            <section id="project1">
+                <div class="project">
+                    <h3>Weight Tracking App</h3>
+                    <p>
+                        Web App built to help track changes in your own weight day to day.<br>
+                        This is a Node.js project built with express as the backend framework.<br>
+                        The front end is built with HTML5 and EJS in order to dynamically build the page.<br>
+                        The application uses MongoDB to store the data. 
+                    </p>
+                    <a href="https://github.com/ChristopherGug/Weight-Tracking-Site" target="_blank">GitHub</a> | <a href="https://weight.chrisgug.com" target="_blank">Demo</a>
+                </div>
+            </section>
+            <section id="project2">
+                <div class="project">
+                    <h3>Pokemon API App</h3>
+                    <p>
+                        Web App built to gather information about a selected pokemon.<br>
+                        This project uses vanilla HTML and JavaScript.
+                    </p>
+                    <a href="https://github.com/ChristopherGug/PokeAPI-website" target="_blank">GitHub</a> | <a href="https://poke.chrisgug.com/" target="_blank">Demo</a>
+                </div>
+            </section>
+            <section id="project3">
+                <div class="project">
+                    <h3>User database web app</h3>
+                    <p>
+                        Web App built to connect database with a Java servlet where users can create and sign into user accounts.<br>
+                        This project uses HTML and JSP for the front end.<br>
+                        The backend is built with Java and ran on a TomCat server.<br>
+                        The database is a PostgreSQL database.<br>
+                        This project is not currently hosted online but I would love to talk it through!
+                    </p>
+                    <a href="https://github.com/ChristopherGug/Signup-SIgnIN" target="_blank">GitHub</a>
+                </div>
+            </section>
         </div>
     </section>
 
@@ -77,8 +83,9 @@
         <h2>About Me</h2>
         <p>
             I am a recent computer programming grad from Durham College in Oshawa Ontario.
-            I have been programming since I was 16 years old and have had a passion for it for all eight years.
+            I have been programming since I was 16 years old and have had a passion for it ever since.
             My favorite languages are C style languages and love coding with object oriented principals.
+            I am always working towards becoming a better developer by consistently learning new technologies, refining my problem-solving skills, seeking feedback from peers, and dedicating time to improve code quality and efficiency
         </p>
     </section>
 
@@ -101,5 +108,6 @@
     <footer>
         <p>&copy; Christopher Gugelmeier 2024. All Rights Reserved.</p>
     </footer>
+    <script src="app.js"></script>
 </body>
 </html>

@@ -74,6 +74,19 @@ section h2 {
     box-shadow: 2px 2px 8px rgb(0, 0, 0);
 }
 
+.skills span:hover {
+    cursor: pointer;
+}
+
+.skills a {
+    color: #fff;
+}
+
+.skills a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
 /* Projects */
 .project-list {
     display: flex;
@@ -94,14 +107,23 @@ section h2 {
 }
 
 /* About and Contact */
-section#about, section#contact {
+section#about {
+    padding: 1rem;
+    max-width: 600px;
+    background-color: #333333;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px black;
+    margin: 20px;
+}
+
+section#contact {
     padding: 1rem;
     max-width: 600px;
     text-align: center;
 }
 
 i {
-    margin: 10px;
+    margin: 20px;
     color: #333333;
 }
 
